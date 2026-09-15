@@ -3,77 +3,77 @@
     "title": "自我介绍",
     "category": "自我介绍",
     "source": "自我介绍",
-    "src": "/shoot/film-00.mp4",
-    "poster": "/shoot/film-00.jpg"
+    "src": "./shoot/film-00.mp4",
+    "poster": "./shoot/film-00.jpg"
   },
   {
     "title": "家具工厂",
     "category": "口播",
     "source": "家具工厂",
-    "src": "/shoot/film-01.mp4",
-    "poster": "/shoot/film-01.jpg"
+    "src": "./shoot/film-01.mp4",
+    "poster": "./shoot/film-01.jpg"
   },
   {
     "title": "抖音精选1",
     "category": "口播",
     "source": "抖音精选1",
-    "src": "/shoot/film-02.mp4",
-    "poster": "/shoot/film-02.jpg"
+    "src": "./shoot/film-02.mp4",
+    "poster": "./shoot/film-02.jpg"
   },
   {
     "title": "抖音精选2",
     "category": "口播",
     "source": "抖音精选2",
-    "src": "/shoot/film-03.mp4",
-    "poster": "/shoot/film-03.jpg"
+    "src": "./shoot/film-03.mp4",
+    "poster": "./shoot/film-03.jpg"
   },
   {
     "title": "医美1",
     "category": "信息流",
     "source": "医美1",
-    "src": "/shoot/film-04.mp4",
-    "poster": "/shoot/film-04.jpg"
+    "src": "./shoot/film-04.mp4",
+    "poster": "./shoot/film-04.jpg"
   },
   {
     "title": "医美2",
     "category": "信息流",
     "source": "医美2",
-    "src": "/shoot/film-05.mp4",
-    "poster": "/shoot/film-05.jpg"
+    "src": "./shoot/film-05.mp4",
+    "poster": "./shoot/film-05.jpg"
   },
   {
     "title": "咖啡",
     "category": "信息流",
     "source": "咖啡",
-    "src": "/shoot/film-06.mp4",
-    "poster": "/shoot/film-06.jpg"
+    "src": "./shoot/film-06.mp4",
+    "poster": "./shoot/film-06.jpg"
   },
   {
     "title": "酒水1",
     "category": "信息流",
     "source": "酒水1",
-    "src": "/shoot/film-07.mp4",
-    "poster": "/shoot/film-07.jpg"
+    "src": "./shoot/film-07.mp4",
+    "poster": "./shoot/film-07.jpg"
   },
   {
     "title": "酒水2",
     "category": "信息流",
     "source": "酒水2",
-    "src": "/shoot/film-08.mp4",
-    "poster": "/shoot/film-08.jpg"
+    "src": "./shoot/film-08.mp4",
+    "poster": "./shoot/film-08.jpg"
   },
   {
     "title": "武汉联合出品宣传片",
     "category": "宣传片",
     "source": "出品单位：武汉市市场监督管理局、武汉市公安局、武汉市检察院、武汉市中级人民法院、武汉光谷知识产权研究院",
-    "src": "/shoot/film-09.mp4",
-    "poster": "/shoot/film-09.jpg"
+    "src": "./shoot/film-09.mp4",
+    "poster": "./shoot/film-09.jpg"
   },
   {
     "title": "葛店联合出品宣传片",
     "category": "宣传片",
     "source": "出品单位：鄂州市市场监督管理局葛店分局、武汉光谷知识产权研究院",
-    "src": "/shoot/film-10.mp4",
-    "poster": "/shoot/film-10.jpg"
+    "src": "./shoot/film-10.mp4",
+    "poster": "./shoot/film-10.jpg"
   }
 ]

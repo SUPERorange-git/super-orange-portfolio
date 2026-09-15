@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { cpSync, mkdirSync } from 'node:fs';
 export default defineConfig({
+  base: './',
   publicDir: false,
   plugins: [react(), {
     name: 'shoot-assets',
