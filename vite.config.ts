@@ -1,11 +1,13 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { cpSync, mkdirSync } from 'node:fs';
+let outputDir = 'dist';
 export default defineConfig({
   base: './',
   publicDir: false,
   plugins: [react(), {
     name: 'shoot-assets',
+    configResolved(config) { outputDir = config.build.outDir; },
     configureServer(server) {
       server.middlewares.use('/shoot', (req, res, next) => {
         import('node:fs').then(({createReadStream,statSync}) => {
@@ -27,6 +29,6 @@ export default defineConfig({
         });
       });
     },
-    closeBundle(){mkdirSync('dist/shoot',{recursive:true});cpSync('public/shoot','dist/shoot',{recursive:true});}
+    closeBundle(){mkdirSync(outputDir + '/shoot',{recursive:true});cpSync('public/shoot',outputDir + '/shoot',{recursive:true});}
   }]
 });

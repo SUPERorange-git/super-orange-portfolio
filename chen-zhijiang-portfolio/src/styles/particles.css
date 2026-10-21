@@ -1,0 +1,359 @@
+.creator-hero {
+  background: #030014;
+  clip-path: inset(0);
+  min-height: 100svh;
+  overflow: hidden;
+}
+.particle-background {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: #030014;
+}
+.particle-background canvas {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+.creator-name {
+  z-index: 20;
+  text-align: center;
+}
+.creator-hero-bottom {
+  z-index: 20;
+}
+.hero-footer-marquee {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 30;
+  overflow: hidden;
+  border-top: 1px solid #d7e2ea22;
+  padding: 9px 0;
+  background: #030014aa;
+  pointer-events: none;
+}
+.hero-footer-marquee > div {
+  display: flex;
+  width: max-content;
+  gap: 50px;
+}
+.hero-footer-marquee span {
+  font-size: 9px;
+  letter-spacing: 0.13em;
+  white-space: nowrap;
+  color: #a6b4c5;
+}
+.hero-footer-marquee i {
+  margin-left: 50px;
+  font-style: normal;
+  color: #64718b;
+}
+.creator-hero-bottom {
+  padding-bottom: 15px;
+}
+.navbar {
+  z-index: 30;
+}
+.creator-portrait {
+  width: 280px;
+  height: min(56svh, 520px);
+  left: 50%;
+  margin-left: -140px;
+  top: 50%;
+  margin-top: max(-260px, -28svh);
+  bottom: auto;
+  z-index: 10;
+}
+.creator-portrait img {
+  border-radius: 0;
+  object-position: center;
+  mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 10%,
+    #000 90%,
+    transparent
+  );
+}
+.creator-hero-bottom > p {
+  max-width: 220px;
+}
+.image-track {
+  position: relative;
+  left: -4752px;
+}
+.image-track:nth-child(2) {
+  left: -4320px;
+}
+.motion-tile {
+  width: 420px;
+  height: 270px;
+  border-radius: 16px;
+}
+.animated-character {
+  position: relative;
+  display: inline-block;
+}
+.character-placeholder {
+  visibility: hidden;
+}
+.character-ink {
+  position: absolute;
+  inset: 0;
+}
+.creator-experience {
+  border-radius: 40px 40px 0 0;
+  margin-top: -40px;
+  z-index: 10;
+}
+.career-stack {
+  top: calc(96px + var(--stack-offset));
+  height: 85vh;
+  min-height: 790px;
+  padding-bottom: 0;
+}
+.career-card {
+  width: 100%;
+  border-radius: 40px;
+  padding: 16px;
+}
+.career-keyword,
+.career-description,
+.career-results {
+  position: relative;
+  isolation: isolate;
+  border-radius: 40px;
+}
+.career-keyword {
+  height: clamp(130px, 16vw, 230px);
+  min-height: 0;
+}
+.career-description {
+  height: clamp(160px, 22vw, 340px);
+  min-height: 0;
+}
+.career-left {
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+.career-body {
+  grid-template-columns: 40% 1fr;
+}
+.career-placeholder {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.38;
+}
+.career-results .career-placeholder {
+  opacity: 0.3;
+}
+.career-media-note {
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  color: #aab3bf;
+  margin-top: 14px;
+  text-align: right;
+}
+.career-keyword > span {
+  position: relative;
+  z-index: 1;
+}
+.career-keyword strong {
+  font-size: clamp(28px, 4vw, 65px);
+}
+.live-project {
+  text-transform: uppercase;
+}
+.info-drawer-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+}
+.drawer-scrim {
+  position: absolute;
+  inset: 0;
+  background: #0009;
+  width: 100%;
+  height: 100%;
+}
+.info-drawer {
+  position: absolute;
+  inset: 0 0 0 auto;
+  width: min(600px, 100%);
+  padding: 80px 40px 40px;
+  background: #11111a;
+  border-left: 1px solid #d7e2ea44;
+  overflow-y: auto;
+  color: #d7e2ea;
+}
+.drawer-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  padding: 10px;
+}
+.info-drawer h2 {
+  font-size: 32px;
+  line-height: 1.4;
+  margin: 25px 0;
+}
+.info-drawer h3 {
+  font-size: 20px;
+}
+.info-drawer p {
+  margin: 24px 0;
+  font-size: 15px;
+  line-height: 1.9;
+}
+.info-drawer li {
+  margin: 14px 0;
+}
+.info-drawer ul {
+  margin: 28px 0;
+  padding-left: 20px;
+}
+.info-drawer .live-project {
+  margin-top: 40px;
+  display: inline-flex;
+  font-size: 13px;
+}
+@media (min-width: 640px) {
+  .creator-portrait {
+    width: 360px;
+    margin-left: -180px;
+    top: auto;
+    margin-top: 0;
+    bottom: 0;
+  }
+  .creator-experience {
+    border-radius: 50px 50px 0 0;
+    margin-top: -48px;
+  }
+  .career-card {
+    padding: 24px;
+    border-radius: 50px;
+  }
+  .career-keyword,
+  .career-description,
+  .career-results {
+    border-radius: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .creator-portrait {
+    width: 440px;
+    margin-left: -220px;
+    height: min(64svh, 680px);
+  }
+  .creator-experience {
+    border-radius: 60px 60px 0 0;
+    margin-top: -56px;
+  }
+  .career-stack {
+    top: calc(128px + var(--stack-offset));
+  }
+  .career-card {
+    padding: 32px;
+    border-radius: 60px;
+  }
+  .career-keyword,
+  .career-description,
+  .career-results {
+    border-radius: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .creator-portrait {
+    width: 520px;
+    margin-left: -260px;
+  }
+}
+@media (max-width: 767px), (max-height: 650px) {
+  .career-stack {
+    height: auto;
+    min-height: 0;
+    position: relative;
+    top: auto !important;
+    padding-bottom: 35px;
+  }
+  .career-card {
+    transform: none !important;
+  }
+  .career-body {
+    grid-template-columns: 1fr;
+  }
+  .career-description {
+    height: auto;
+    min-height: 160px;
+  }
+  .career-results {
+    min-height: 290px;
+  }
+  .career-header {
+    margin-bottom: 22px;
+  }
+}
+@media (min-width: 768px) and (min-height: 651px) and (max-height: 900px) {
+  .career-stack {
+    position: sticky !important;
+    top: calc(128px + var(--stack-offset)) !important;
+    min-height: 650px;
+    height: 85vh;
+    padding-bottom: 0;
+  }
+  .career-card {
+    padding: 24px;
+  }
+  .career-number {
+    font-size: 75px;
+  }
+  .career-keyword {
+    height: 160px;
+  }
+  .career-description {
+    height: 220px;
+  }
+  .career-body {
+    grid-template-columns: 40% 1fr;
+  }
+  .career-result-list p {
+    font-size: 24px;
+  }
+  .career-results {
+    min-height: 0;
+  }
+}
+@media (max-width: 767px) {
+  .creator-hero-bottom > p {
+    max-width: 130px;
+  }
+  .info-drawer {
+    padding: 70px 24px 30px;
+  }
+  .info-drawer h2 {
+    font-size: 26px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .image-track {
+    left: 0;
+  }
+  .career-stack {
+    height: auto;
+    min-height: 0;
+    position: relative;
+    top: auto !important;
+    padding-bottom: 35px;
+  }
+  .career-card {
+    transform: none !important;
+  }
+}

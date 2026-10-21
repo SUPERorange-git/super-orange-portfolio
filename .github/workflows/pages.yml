@@ -26,7 +26,8 @@ jobs:
           node-version: 22
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - run: pnpm build
+      - run: pnpm --dir chen-zhijiang-portfolio install --frozen-lockfile
+      - run: pnpm build:sites
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

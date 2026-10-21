@@ -1,12 +1,13 @@
 {
-  "name": "chen-zhijiang-portfolio",
+  "name": "super-orange-hub",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "tsc -b && vite build",
-    "preview": "vite preview --host 0.0.0.0"
+    "preview": "vite preview --host 0.0.0.0",
+    "build:sites": "tsc -b && tsc -b chen-zhijiang-portfolio && node scripts/build-sites.mjs"
   },
   "dependencies": {
     "@fontsource/kanit": "^5.3.0",
