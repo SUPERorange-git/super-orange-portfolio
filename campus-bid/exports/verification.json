@@ -1,0 +1,676 @@
+{
+  "screenCount": 90,
+  "errors": [],
+  "checks": [
+    {
+      "id": "G01",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1023,
+      "main": "欢迎来到校竞标"
+    },
+    {
+      "id": "G02",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "登录 / 注册"
+    },
+    {
+      "id": "G03",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "完善企业资料"
+    },
+    {
+      "id": "G04",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "完善学生资料"
+    },
+    {
+      "id": "G05",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "资料核验中"
+    },
+    {
+      "id": "G06",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "账号与隐私"
+    },
+    {
+      "id": "G07",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "通知中心"
+    },
+    {
+      "id": "G08",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1048,
+      "main": "规则与帮助"
+    },
+    {
+      "id": "M01",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1183,
+      "main": "项目工作台"
+    },
+    {
+      "id": "M02",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1094,
+      "main": "发布项目"
+    },
+    {
+      "id": "M03",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1094,
+      "main": "明确交付要求"
+    },
+    {
+      "id": "M04",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1094,
+      "main": "预算与时间"
+    },
+    {
+      "id": "M05",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1322,
+      "main": "发布前预览"
+    },
+    {
+      "id": "M06",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1236,
+      "main": "食光里餐厅 · 月度引流短视频"
+    },
+    {
+      "id": "M07",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1008,
+      "main": "需求修改与版本"
+    },
+    {
+      "id": "M08",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "待评选项目"
+    },
+    {
+      "id": "M09",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "收到的投标"
+    },
+    {
+      "id": "M10",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1192,
+      "main": "团队 B 的投标方案"
+    },
+    {
+      "id": "M11",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "团队 B · 拾光影像组"
+    },
+    {
+      "id": "M12",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1137,
+      "main": "团队方案对比"
+    },
+    {
+      "id": "M13",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1004,
+      "main": "邀请团队 B 合作"
+    },
+    {
+      "id": "M14",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "项目消息"
+    },
+    {
+      "id": "M15",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "与拾光影像组沟通"
+    },
+    {
+      "id": "M16",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1308,
+      "main": "项目确认单"
+    },
+    {
+      "id": "M17",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1008,
+      "main": "需求变更申请"
+    },
+    {
+      "id": "M18",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "执行中的项目"
+    },
+    {
+      "id": "M19",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1183,
+      "main": "项目执行工作台"
+    },
+    {
+      "id": "M20",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1242,
+      "main": "托管第一阶段款"
+    },
+    {
+      "id": "M21",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1004,
+      "main": "第一阶段托管成功"
+    },
+    {
+      "id": "M22",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1029,
+      "main": "V01 · 午餐不将就"
+    },
+    {
+      "id": "M23",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1217,
+      "main": "确认第一阶段验收"
+    },
+    {
+      "id": "M24",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1120,
+      "main": "最终交付中心"
+    },
+    {
+      "id": "M25",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1060,
+      "main": "评价这次合作"
+    },
+    {
+      "id": "M26",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1008,
+      "main": "企业资料"
+    },
+    {
+      "id": "M27",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "成员与权限"
+    },
+    {
+      "id": "M28",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1099,
+      "main": "资金与订单"
+    },
+    {
+      "id": "M29",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1226,
+      "main": "第三阶段交易凭证"
+    },
+    {
+      "id": "M30",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1043,
+      "main": "申请平台协调"
+    },
+    {
+      "id": "M31",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "终止申请处理进度"
+    },
+    {
+      "id": "S01",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1059,
+      "main": "找到值得投入的项目"
+    },
+    {
+      "id": "S02",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1236,
+      "main": "食光里餐厅 · 月度引流短视频"
+    },
+    {
+      "id": "S03",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1094,
+      "main": "选择出战团队"
+    },
+    {
+      "id": "S04",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1094,
+      "main": "用作品介绍团队"
+    },
+    {
+      "id": "S05",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1094,
+      "main": "提案与报价"
+    },
+    {
+      "id": "S06",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1278,
+      "main": "投标提交前确认"
+    },
+    {
+      "id": "S07",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "投标已提交"
+    },
+    {
+      "id": "S08",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "你们收到合作邀请"
+    },
+    {
+      "id": "S09",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "作品，让想法被看见"
+    },
+    {
+      "id": "S10",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1055,
+      "main": "午餐不将就"
+    },
+    {
+      "id": "S11",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1008,
+      "main": "分享这次创作"
+    },
+    {
+      "id": "S12",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "项目消息"
+    },
+    {
+      "id": "S13",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "与食光里餐厅沟通"
+    },
+    {
+      "id": "S14",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1318,
+      "main": "林同学，下午好"
+    },
+    {
+      "id": "S15",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1308,
+      "main": "确认合作约定"
+    },
+    {
+      "id": "S16",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1043,
+      "main": "我的简历与作品"
+    },
+    {
+      "id": "S17",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "拾光影像组"
+    },
+    {
+      "id": "S18",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1008,
+      "main": "创建 / 管理团队"
+    },
+    {
+      "id": "S19",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "加入拾光影像组"
+    },
+    {
+      "id": "S20",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1183,
+      "main": "我的项目 · 食光里餐厅"
+    },
+    {
+      "id": "S21",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1008,
+      "main": "首条视频脚本"
+    },
+    {
+      "id": "S22",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1087,
+      "main": "提交第一阶段成果"
+    },
+    {
+      "id": "S23",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1029,
+      "main": "处理修改意见"
+    },
+    {
+      "id": "S24",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1008,
+      "main": "变更与延期申请"
+    },
+    {
+      "id": "S25",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1099,
+      "main": "团队收入与结算"
+    },
+    {
+      "id": "S26",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1008,
+      "main": "团队收款账户"
+    },
+    {
+      "id": "S27",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1016,
+      "main": "评价这次合作"
+    },
+    {
+      "id": "S28",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1008,
+      "main": "申请项目协调"
+    },
+    {
+      "id": "S29",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "案例授权申请已发送"
+    },
+    {
+      "id": "S30",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "我的全部投标"
+    },
+    {
+      "id": "S31",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "我的全部项目"
+    },
+    {
+      "id": "A01",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "审核队列"
+    },
+    {
+      "id": "A02",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "管家工作台"
+    },
+    {
+      "id": "A03",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1099,
+      "main": "订单对账"
+    },
+    {
+      "id": "A04",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "协调工单详情"
+    },
+    {
+      "id": "A05",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1271,
+      "main": "企业核验详情"
+    },
+    {
+      "id": "C01",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "校园团队核验"
+    },
+    {
+      "id": "C02",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "实践项目成果"
+    },
+    {
+      "id": "C03",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "拾光影像组 · 核验详情"
+    },
+    {
+      "id": "E01",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "还没有收到投标"
+    },
+    {
+      "id": "E02",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "付款结果确认中"
+    },
+    {
+      "id": "E03",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "到账未成功"
+    },
+    {
+      "id": "E04",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "资料需要补充"
+    },
+    {
+      "id": "E05",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "文件上传未完成"
+    },
+    {
+      "id": "E06",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "当前账号没有操作权限"
+    },
+    {
+      "id": "M32",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "团队 A 的投标方案"
+    },
+    {
+      "id": "M33",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1071,
+      "main": "团队 C 的投标方案"
+    },
+    {
+      "id": "M34",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "第一阶段结算中"
+    },
+    {
+      "id": "M35",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1023,
+      "main": "第一阶段到账记录"
+    },
+    {
+      "id": "S32",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "校园咖啡店 · 菜单视觉"
+    },
+    {
+      "id": "S33",
+      "overflow": false,
+      "brokenImages": 0,
+      "height": 1000,
+      "main": "独立书店 · 周末活动方案"
+    },
+    {
+      "id": "M01-mobile",
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "id": "M03-mobile",
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "id": "M12-mobile",
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "id": "M15-mobile",
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "id": "M22-mobile",
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "id": "S01-mobile",
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "id": "S14-mobile",
+      "overflow": false,
+      "brokenImages": 0
+    },
+    {
+      "id": "S05-mobile",
+      "overflow": false,
+      "brokenImages": 0
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 [
   {"slug":"shoot","name":"拍摄作品","subtitle":"超级橘橘 · 演员 / 模特 / 主播","description":"模卡、自我介绍与商业拍摄案例。走进镜头里的橘橘。","directory":".","image":"shoot/shoot/model.jpg"},
-  {"slug":"portfolio","name":"个人作品集","subtitle":"CHEN ZHIJIANG · Creative Portfolio","description":"品牌增长、AI 创意、视觉与新媒体。探索创意与商业的交汇。","directory":"chen-zhijiang-portfolio","image":"portfolio/media/art-portrait.png"}
+  {"slug":"portfolio","name":"个人作品集","subtitle":"CHEN ZHIJIANG · Creative Portfolio","description":"品牌增长、AI 创意、视觉与新媒体。探索创意与商业的交汇。","directory":"chen-zhijiang-portfolio","image":"portfolio/media/art-portrait.png"},
+  {"slug":"campus-bid","name":"校竞标","subtitle":"CAMPUS COLLAB · 校园商业竞标平台","description":"连接商家与学生团队。浏览双端页面、竞标流程与分阶段交付的界面初稿。","directory":"campus-bid","type":"static","hubLink":true,"image":"campus-bid/exports/student/S01.png"}
 ]

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "A/B/C 详情分别跳转到相应团队",
+    "pass": true
+  },
+  {
+    "name": "三队投标详情按钮同等视觉权重",
+    "pass": true
+  },
+  {
+    "name": "项目类型筛选",
+    "pass": true
+  },
+  {
+    "name": "无结果状态",
+    "pass": true
+  },
+  {
+    "name": "本地消息预览",
+    "pass": true
+  },
+  {
+    "name": "草稿保存",
+    "pass": true
+  },
+  {
+    "name": "成员邀请弹窗",
+    "pass": true
+  },
+  {
+    "name": "首期验收进入结算中",
+    "pass": true
+  },
+  {
+    "name": "V01 最终交付版本一致",
+    "pass": true
+  },
+  {
+    "name": "不同项目详情目标一致",
+    "pass": true
+  },
+  {
+    "name": "手机主导航可见",
+    "pass": true
+  },
+  {
+    "name": "按端筛选目录",
+    "pass": true
+  },
+  {
+    "name": "界面图网格",
+    "pass": true
+  },
+  {
+    "name": "成交路径目录",
+    "pass": true
+  }
+]
