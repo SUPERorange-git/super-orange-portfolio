@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": [
+    "member and payee confirmation",
+    "proposal privacy",
+    "bid and award",
+    "dual confirmation",
+    "three-stage delivery and 5000 reconciliation",
+    "revision cycle",
+    "ratings and case authorization",
+    "brief mode draft retention",
+    "publish review feed",
+    "one vote",
+    "27 templates plus preview",
+    "mobile overflow"
+  ],
+  "errors": []
+}
