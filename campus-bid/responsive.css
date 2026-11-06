@@ -1,0 +1,45 @@
+/* Keep desktop comparisons dense and mobile actions within the viewport. */
+.main p,.main li,.main dd{overflow-wrap:anywhere}
+.field,.toolbar label{min-width:0}
+.main ol{padding-left:24px}
+.main li+li{margin-top:10px}
+.sidebar nav a[aria-current=page]{font-weight:700}
+@media(min-width:1160px){
+  .sidebar{position:sticky;top:0;align-self:start;min-height:100vh}
+  .main{padding:32px 40px 40px}
+  .detailgrid{gap:40px}
+  .sidefacts{background:#edf2ef;padding:20px;border-left:2px solid #cadbd0}
+}
+@media(max-width:700px){
+  .top{display:grid;grid-template-columns:1fr auto}
+  .top .demo{grid-column:1/-1;grid-row:2;justify-self:start}
+  .top .right{gap:6px}
+  .btn,.top .btn{min-height:44px}
+  .sidebar nav{scrollbar-width:thin;padding-bottom:4px}
+  .sidebar nav a{min-height:44px}
+  .tablewrap{overflow:visible;background:transparent;border-bottom:0}
+  .tablewrap table,.tablewrap tbody{display:block;width:100%;min-width:0}
+  .tablewrap thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+  .tablewrap tr{display:block;padding:14px 0;border-bottom:1px solid #cedbd2}
+  .tablewrap td{display:block;border:0;padding:6px 0;overflow-wrap:anywhere}
+  .tablewrap td::before{content:attr(data-label);display:block;font-size:11px;color:#687d70;margin-bottom:3px}
+  .tablewrap td[data-label='']::before{display:none}
+  .tablewrap td:last-child .btn{width:100%;margin-top:6px}
+  .tablewrap td strong{font-size:15px}
+  .toolbar{display:grid;grid-template-columns:1fr 1fr}
+  .toolbar label:first-child{grid-column:1/-1}
+  .toolbar select{width:100%;min-width:0}
+  .field input,.field select,.field textarea{font-size:16px}
+  .progress{display:grid;grid-template-columns:repeat(5,minmax(0,1fr))}
+  .progress span{font-size:11px;line-height:1.5;padding:10px 4px}
+  .tabs a{min-height:44px}
+  .stagehead{gap:10px}
+  .stagehead h2{margin-bottom:4px}
+  dialog{padding:20px;max-height:calc(100dvh - 32px);overflow:auto}
+  .public-hero{height:auto;min-height:480px;max-height:none}
+  .hero-copy{min-height:480px;padding:28px 6%}
+  .hero-copy h1{font-size:42px}
+  .hero-line{font-size:26px}
+  .public-nav .btn{padding:9px 12px}
+  .entry-list a{flex-wrap:wrap}
+}
