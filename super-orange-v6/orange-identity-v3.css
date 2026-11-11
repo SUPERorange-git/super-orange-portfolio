@@ -1,0 +1,76 @@
+/* SUPER ORANGE / V3 ORANGE LOOP ORIGINAL IDENTITY
+   Original brand typography + Mobius citrus mark. Case images preserve native aspect ratio. */
+:root{--so-cream:#F5F1E9;--so-paper:#FFFCF6;--so-ink:#171D1A;--so-dark:#14211D;--so-orange:#FF8100;--so-red:#E95700;--so-rule:#D9D5CB}
+body{background:var(--so-cream)}
+.header{background:#14211df5;border-color:#36403a;color:#fff}
+.header.scrolled{background:#14211dfa}
+.home-v2 .header,.home-v2 .header.scrolled{background:#14211df5;color:#fff;border-color:#39453f}
+.home-v2 .desktop-nav a{color:#D7DFD9}.home-v2 .desktop-nav a.active,.home-v2 .desktop-nav a:hover{color:#fff}
+.home-v2 .menu-toggle span{background:#fff}.home-v2 .mobile-nav{background:#14211d;color:#fff;border-color:#36443c}.home-v2 .mobile-nav a{color:#fff;border-color:#3b4840}
+.home-v2 .header-cta,.header-cta{background:var(--so-orange);color:var(--so-ink);border:0;border-radius:99px}
+.header-inner .brand-mark{width:41px;height:41px;object-fit:contain}
+.home-v2 .header .brand-wordmark{filter:brightness(0) invert(1)}
+/* Distinctive hero: large brand mark, offset type, orbital language */
+.so3-hero{background:var(--so-dark);color:#FFF9ED;position:relative;overflow:hidden;padding-top:92px}
+.so3-hero-grain{pointer-events:none;position:absolute;inset:0;background:radial-gradient(ellipse at 78% 39%,#40604e55,transparent 52%),repeating-linear-gradient(0deg,transparent,transparent 73px,#ffffff05 74px);opacity:.8}
+.so3-hero-layout{position:relative;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(360px,.9fr);min-height:780px;gap:3vw;align-items:center}
+.so3-lead{position:relative;z-index:2;padding:60px 0 95px}
+.so3-kicker{font-size:11px;letter-spacing:.14em;font-weight:800;color:#C9D7CF;display:flex;align-items:center;gap:13px}
+.so3-signal{width:11px;height:11px;background:var(--so-orange);border-radius:50%;box-shadow:0 0 0 5px #ff810021}
+.so3-heading-wrap{padding-top:90px}.so3-smallcaps{font-size:11px;font-weight:800;letter-spacing:.24em;color:#FF9C42}
+.so3-hero h1{font-size:clamp(58px,5.3vw,91px);line-height:1.1;margin:21px 0 0;letter-spacing:-.08em;font-weight:900;white-space:nowrap}
+.so3-hero h1>span:first-child{color:var(--so-orange)}.so3-fullstop{color:var(--so-orange)}
+.so3-hero-bottom{margin-top:80px;max-width:690px}.so3-hero-bottom>p{font-size:21px;font-weight:800;margin:0 0 13px}.so3-hero-desc{font-size:16px;line-height:1.85;color:#CBD7CE}
+.so3-hero-links{display:flex;align-items:center;gap:32px;margin-top:30px;flex-wrap:wrap}.so3-primary{display:inline-flex;align-items:center;gap:32px;justify-content:space-between;min-height:52px;background:var(--so-orange);color:#18231C;padding:0 23px;border-radius:3px;font-size:14px;font-weight:800}.so3-primary b{font-size:22px}.so3-primary:hover{background:#ffab3d}
+.so3-line-link{font-size:13px;font-weight:750;color:#F5F1E9;border-bottom:1px solid #F5F1E9;padding-bottom:9px}
+.so3-symbol-stage{position:relative;min-height:650px;display:flex;align-items:center;justify-content:center;padding:75px 0}
+.so3-symbol-frame{position:relative;z-index:3;display:grid;place-items:center;width:min(100%,590px);aspect-ratio:1;transform:rotate(-12deg);transition:transform .8s cubic-bezier(.2,.8,.2,1)}
+.so3-symbol-frame:hover{transform:rotate(0deg)}
+.so3-symbol-frame img{width:100%;height:auto;max-width:100%;object-fit:contain;filter:drop-shadow(0 17px 50px #0008)}
+.so3-halo{border:1px solid #FF81006A;border-radius:50%;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) rotate(-25deg);pointer-events:none}
+.so3-halo-one{width:109%;height:86%}.so3-halo-two{width:81%;height:115%;border-color:#EAE6D122}
+.so3-sym-caption{position:absolute;bottom:15px;left:20px;right:20px;display:flex;justify-content:space-between;gap:22px;color:#91AA99;font-size:9px;letter-spacing:.12em;font-weight:700}
+.so3-hero-foot{position:relative;padding:22px 0;display:flex;justify-content:space-between;border-top:1px solid #46574D;color:#A2B5A7;font-size:10px;letter-spacing:.14em;font-weight:650}
+/* Our own section language: citrus radial marker and alternating panels */
+.so3-work-index{background:var(--so-cream);padding:125px 0 115px;color:#171D1A}
+.so3-work-index .editorial-section-head{display:grid;grid-template-columns:.65fr 1.65fr 1fr;gap:46px;align-items:start;margin-bottom:75px}
+.so3-section-label{color:#AE4704;font-size:11px;font-weight:850;letter-spacing:.14em}.so3-section-label span{color:#74766d}
+.so3-work-index h2{font-size:clamp(48px,5vw,83px);line-height:1.12;letter-spacing:-.075em;margin:0;font-weight:900}.so3-work-index h2 em{font-style:normal;color:#D95C0B}
+.so3-work-index .editorial-section-head p{font-size:14px;color:#6d7169;line-height:1.9;padding-top:18px}
+.so3-work-index .work-rows{border-top:2px solid #242c27}.so3-work-index .work-rows a{border-bottom:1px solid #CCC6B8;grid-template-columns:.35fr 2.1fr .9fr 40px;padding:30px 0}
+.so3-work-index .work-rows strong{font-size:clamp(24px,3vw,43px);letter-spacing:-.04em}
+.so3-work-index .work-no{color:#E96407}.so3-work-index .work-rows a:hover{color:#DC630B}
+/* Section compositions, not generic pill-card grid */
+.service-section{background:#14211D}.service-tile{border:1px solid #ffffff30;background:#1B3028;box-shadow:0 10px 35px #0000000b;position:relative;overflow:hidden}
+.service-tile:before{content:'';position:absolute;right:-30px;bottom:-48px;width:115px;height:115px;border:18px solid #FF810012;border-radius:50%}
+.service-tile:nth-child(3n+2){background:#203A30}.service-tile:hover{background:#2A4839}
+.solution-tile{border:1px solid #DBD5C8;background:#FDFBF4}.solution-tile:nth-child(2n){background:#EAE7DB}.solution-n{color:#DB5B03}
+.about-teaser{background:#E7E8DB}.about-icon{background:#13251D;border-radius:50% 50% 6px 6px}
+.about-icon img{object-fit:contain;height:auto}
+.cta-band{background:#FF8100}.footer{background:#14211D}
+/* ORIGINAL ARTWORK INTEGRITY: never crop, zoom, mask, stretch or force ratio */
+.project-thumb,.case-image,.case-image.logo-case{aspect-ratio:auto!important;height:auto!important;max-height:none!important;min-height:0!important;overflow:visible!important;background:#F0EAE0;display:flex;justify-content:center;align-items:center;padding:0!important}
+.project-thumb img,.case-image img,.case-image.logo-case img{display:block;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;object-fit:contain!important;object-position:center!important;transform:none!important;scale:1!important;padding:0!important;filter:none!important;clip-path:none!important;border-radius:0!important}
+.project-card:hover .project-thumb img,.project-thumb:hover img{transform:none!important;scale:1!important}
+.project-arrow{top:auto!important;bottom:13px!important;right:13px!important;background:#FF8100!important;color:#16231B!important;z-index:2}
+.project-card{background:#fffdf8;border:1px solid #DBD6C9;padding:13px;box-shadow:0 7px 32px #14211d0a}
+.project-cap{padding:22px 6px 14px!important}.project-grid{gap:35px 28px!important}
+.case-cover{background:#14211D;padding:30px 0 85px}.case-image{max-width:1240px;margin:0 auto;background:#F4F0E6}
+.case-image img{max-height:none!important;width:100%;height:auto}
+.case-image.logo-case{background:#F4F0E6}.case-image.logo-case img{padding:0!important}
+/* user-supplied images in any context have their complete content visible */
+img[src*='-original']{object-fit:contain!important;object-position:center!important;clip-path:none!important;max-height:none!important}
+/* Services get an own typographic signature */
+.services-v2-intro{background:#F5F1E9;color:#15231B;padding:175px 0 110px}
+.services-v2-intro:after{width:380px;height:380px;right:6%;top:100px;background:radial-gradient(circle,#FF81004D,transparent 70%)}
+.services-v2-intro h1{color:#16231B}.services-v2-intro h1 em{color:#E45B04}.services-v2-intro p{color:#626B61}.services-v2-intro .underline-arrow{color:#16231B}
+.services-big-index{color:#BE4E05}.service-group-v2:nth-of-type(even){background:#F1EDE4;padding:38px 30px 68px;border-radius:4px}
+.service-v2-detail{position:relative}.service-v2-top h3{letter-spacing:-.05em}.service-v2-price{background:#14211D}
+.service-v2-price span{color:#FF9B36}.service-v2-price p{color:#F3F0E8}
+/* general darker pages */
+.page-hero,.case-hero{background:#14211D}.page-hero h1{letter-spacing:-.065em}.case-hero h1{letter-spacing:-.06em}
+/* Mobile */
+@media(max-width:1090px){.so3-hero-layout{grid-template-columns:minmax(0,1fr) minmax(290px,.8fr);gap:20px}.so3-hero h1{font-size:clamp(54px,6vw,73px)}.so3-symbol-stage{min-height:570px}}
+@media(max-width:860px){.so3-hero{padding-top:74px}.so3-hero-layout{display:flex;flex-direction:column;min-height:0;gap:0;align-items:stretch}.so3-lead{padding:70px 0 0}.so3-heading-wrap{padding-top:55px}.so3-hero h1{font-size:clamp(58px,8.3vw,82px)}.so3-hero-bottom{margin-top:30px}.so3-symbol-stage{min-height:400px;padding:10px 4vw 50px}.so3-symbol-frame{max-width:425px}.so3-sym-caption{bottom:15px}.so3-work-index .editorial-section-head{grid-template-columns:.8fr 1.6fr;gap:20px}.so3-work-index .editorial-section-head p{grid-column:2}.so3-work-index{padding:90px 0}}
+@media(max-width:620px){.so3-hero{padding-top:70px}.so3-lead{padding:45px 0 0}.so3-kicker{font-size:9px}.so3-heading-wrap{padding-top:48px}.so3-smallcaps{font-size:9px}.so3-hero h1{font-size:clamp(47px,11vw,65px);letter-spacing:-.075em;white-space:normal}.so3-hero-bottom>p{font-size:18px}.so3-hero-desc{font-size:14px}.so3-hero-links{gap:19px}.so3-symbol-stage{min-height:355px;padding:35px 20px 60px}.so3-symbol-frame{width:min(80%,350px)}.so3-halo-one{width:90%}.so3-halo-two{width:75%;height:105%}.so3-sym-caption{flex-direction:column;gap:5px;left:0;right:0;text-align:center;font-size:7px}.so3-hero-foot{font-size:8px}.so3-hero-foot span:last-child{display:none}.so3-work-index .editorial-section-head{grid-template-columns:1fr;gap:15px;margin-bottom:42px}.so3-work-index .editorial-section-head p{grid-column:1}.so3-work-index h2{font-size:clamp(43px,10vw,59px)}.so3-work-index .work-rows a{grid-template-columns:26px 1fr 25px;gap:8px;padding:21px 0}.project-grid{grid-template-columns:1fr!important}.service-group-v2:nth-of-type(even){padding:26px 15px 48px}.case-cover{padding:12px 0 45px}}
+@media(prefers-reduced-motion:reduce){.so3-symbol-frame{transition:none}}
